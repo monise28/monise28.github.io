@@ -1,0 +1,27 @@
+ $(document).ready(function(){
+ 
+    $("#menuContatos").click(function(){
+        $("#inicial").hide(1000,"linear");
+        $("#receitas").hide(1000,"linear");
+        $("#nossosProdutos").hide(1000,"linear");
+        $("#contatos").show(1000);
+    });
+ $("#menuInicial").click(function(){
+        $("#contatos").hide(1000,"linear");
+        $("#receitas").hide(1000,"linear");
+        $("#nossosProdutos").hide(1000,"linear");
+        $("#inicial").show(1000);
+    });
+$("#menuProdutos").click(function(){
+        $("#contatos").hide(1000,"linear");
+        $("#receitas").hide(1000,"linear");
+        $("#inicial").hide(1000,"linear");
+        $("#nossosProdutos").show(1000);
+    });
+    $("#menuReceitas").click(function(){
+        $("#contatos").hide(1000,"linear");
+        $("#nossosProdutos").hide(1000,"linear");
+        $("#inicial").hide(1000,"linear");
+        $("#receitas").show(1000);
+    });
+});

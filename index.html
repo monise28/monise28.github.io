@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Embutidos Bergmann</title>
+    <link rel="icon" type="image/png" href="imagens/favicon-32x32.png" sizes="32x32" />
 </head>
 <body background="imagens/fund.jpg" bgproperties="fixed">
   <div class="container"> 
@@ -33,10 +34,10 @@
       <img class="d-block w-100 img-dark" src="imagens/fabrica.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 img-dark" src="imagens/linguica.jpg" alt="Second slide">
+      <img class="d-block w-100 img-dark" src="imagens/01.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 img-dark" src="imagens/calabresa.jpg" alt="Third slide">
+      <img class="d-block w-100 img-dark" src="imagens/01-AMPLIADA.png" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -49,13 +50,22 @@
   </a>
 </div>
 <div id="conhecer"></div>
-<h1 id="descricao">Você já conhece a nossa história?</h1>
- <button class="btn btn-danger btn-lg btnHistoria">Saiba mais</button>
+<h1 id="descricao">Fundada em 2001, é uma empresa familiar e atua no ramo da alimentação com diversos produtos embutidos.
+A fábrica fica localizada na cidade de Pelotas-RS.
+
+</h1>
+ 
   </div>
+<div id="fotoInicio">
+  <img id="imgInic" src="imagens/fabrica1.jpg" >
+</div>
+<div>
+  <img id="imgInici" src="imagens/fabrica4.jpg" >
+</div>
   
   <div id="nossosProdutos">
      <figure> <img class="imgProdutos" src="imagens/mortadelaPequena.jpg" >
-      <figcaption >Motadela Pequena</figcaption></figure>
+      <figcaption >Mortadela Pequena</figcaption></figure>
       <figure> <img class="imgProdutos" src="imagens/calabresaReta.jpg" >
        <figcaption>Calabresa Reta</figcaption></figure>
       <figure> <img class="imgProdutos" src="imagens/linguicaFinaMistaEspecial.jpg" >
@@ -106,7 +116,8 @@
        <h1 id="info">Informações:</h1> 
       <div><img class="imgContatos" src="imagens/telefone.png" ><figcaption id="tel">(53)3223.2850</figcaption></div>
         <div><img class="imgContatos" src="imagens/clock.png" ><figcaption id="atendimento">Horário de atendimento: Segunda á sexta das 07:30 ás 18:00</figcaption></div>
-        
+        <div><img id="facebo" class="imgContatos" src="imagens/faceb.png.png"> <a href= "https://www.facebook.com/embutidosbergmann/" ><figcaption id="faceb">Clique e acesse nossa página no Facebook!</figcaption></a></div>
+        <div><img id="fotomail" class="imgContatos" src="imagens/mail.png.png" ><figcaption id="emaill">@embutidosbergmann</figcaption></div>
         
          
           
@@ -120,18 +131,30 @@
   <div class="card-block">
     <h4 class="card-title">Mocotó</h4>
     
-    <a href="#" class="btn btn-danger">Ver receita</a>
+    <a href="#" id="btMocoto" class="btn btn-danger">Ver receita</a>
   </div>
 </div>
-<div class="card" style="width: 20rem;">
+
+  
+  <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="arrozcomlinguica.jpg" alt="Card image cap">
   <div class="card-block">
-    <h4 class="card-title">Arroz Com Linguiça</h4>
+    <h4  class="card-title">Arroz Com Linguiça</h4>
    
-    <a href="#" class="btn btn-danger ">Ver receita</a>
+    <a href="#" id="btArroz" class="btn btn-danger ">Ver receita</a>
   </div>
 </div>
+
     </div>
+    <div id="receitaArroz">
+         
+<img id="fotoReceita" src="imagens/receitaarroz.jpg" >
+  
+</div>
+<div id="receitaMocoto">
+  <img id="fotoReceitaMocoto" src="imagens/receitamocoto.jpg" >
+</div>
+  
 <div>
     
 <script src="vendor/jquery.min.js"></script>
@@ -140,3 +163,6 @@
 <script src="script.js"></script>
 </body>
 </html>
+    
+
+ 

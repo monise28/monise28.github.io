@@ -43,6 +43,11 @@ background-size: 100%;
     src: url("../fonts/knight/knight.otf");
 
 }
+ @font-face{
+    font-family:December;
+    src: url("../fonts/december/December.ttf");
+
+ }
     #logo{
    width: 135px;
     height: 91px;
@@ -51,6 +56,16 @@ background-size: 100%;
     position: absolute;
     margin-top: -152px;
     }
+
+    @media screen and (max-width: 480px) {
+        #logo {
+            width: 50px;
+            height: 50px;
+            margin-top: -120px;
+            margin-left: 50px;
+        }
+    }
+
     #face{
         width: 41px;
     }
@@ -72,7 +87,15 @@ background-size: 100%;
     margin-left: 152px;
     font-size: 70px;
     color: red;
-     font-family:knight;
+    font-family:knight;
+    }
+
+    @media screen and (max-width: 480px) {
+        #titulo {
+            font-size: 45px;
+            margin-left: 0px;
+            margin-left: 50px;
+        }
     }
     
     .container{
@@ -92,11 +115,13 @@ background-size: 100%;
     filter: brightness(60%);
 }
 #descricao{
-    font-size: 70px;
+    font-size: 35px;
     color: red;
-     font-family:knight;
-         margin-left: 111px;
-    margin-top: 162px;
+    font-family: December;
+    margin-left: 111px;
+    margin-top: 105px;
+    margin-left: 318px;
+    width: 400px;
 }
 .btnHistoria {
     margin-left: 400px;
@@ -165,6 +190,34 @@ figure{
         width: 60px;
     height: 60px;
 }
+#facebo{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#faceb{
+    width:355px;
+    margin-left: 54px;
+    margin-top: -25px;
+    font-size: 15px;
+}
+#faceb:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#fotomail{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#emaill{
+    font-size: 15px;
+    margin-left: 52px;
+    margin-top: -29px;
+}
 #tel{
     font-size: 15px;
      width: 454px;
@@ -178,4 +231,60 @@ figure{
         width: 454px;
             margin-left: 53px;
     margin-top: -38px;
+}
+#nossaHistoria{
+    display: none;
+}
+.imgFabrica{
+    width: 239px;
+    height: 200px;
+}
+#desde{
+color: red;
+     font-size: 25px;
+}
+#entao{
+    color: red;
+    font-size: 50px;
+    font-family:knight;
+}
+.numeros{
+    color: red;
+}
+.img-responsive{
+        width: 260px;
+    height: 210px;
+}
+
+ #inConquistas{
+
+    position: relative;
+    margin: 252px;
+    margin-top: -1px;
+}
+
+
+#receitaArroz{
+    display: none;
+}
+#receitaMocoto{
+    display: none;
+}
+#ano{
+    font-size: 30px;
+    color: red;
+}
+#imgInici{
+   width: 250px;
+    height: 200px;
+    margin-top: -270px;
+    margin-left: 718px;
+    border-radius: 50%;
+}
+#imgInic{
+       width: 250px;
+    height: 200px;
+    margin-left: 1px;
+    border-radius: 50%;
+    margin-top: -228px;
 }

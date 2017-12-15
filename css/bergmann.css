@@ -16,11 +16,18 @@ background-size: 100%;
 
       
     }
+    
     #listtudo{
         text-align: center;
         font-size: 30px;
         color: red;
         font-family:knight;
+    }
+       @media screen and (max-width: 480px) {
+           #listtudo{
+    margin-left: -154px;
+    font-size: 24px;
+           }
     }
      #menuReceitas:hover{
          color: #bf0000;
@@ -38,6 +45,21 @@ background-size: 100%;
          color: #bf0000;
          text-decoration: underline;
      }
+      @media screen and (max-width: 480px) {
+        #menuProdutos{
+         margin-left: 13px;
+        }
+      }
+       @media screen and (max-width: 480px) {
+      #menuReceitas{
+    margin-left: 11px;
+      }
+  }
+    @media screen and (max-width: 480px) {
+      #menuContatos{
+      margin-left: 7px;
+      }
+    }
     @font-face{
     font-family:knight;
     src: url("../fonts/knight/knight.otf");
@@ -55,6 +77,7 @@ background-size: 100%;
     z-index: 9;
     position: absolute;
     margin-top: -152px;
+
     }
 
     @media screen and (max-width: 480px) {
@@ -62,7 +85,7 @@ background-size: 100%;
             width: 50px;
             height: 50px;
             margin-top: -120px;
-            margin-left: 50px;
+            margin-left: -6px;
         }
     }
 
@@ -93,8 +116,8 @@ background-size: 100%;
     @media screen and (max-width: 480px) {
         #titulo {
             font-size: 45px;
-            margin-left: 0px;
-            margin-left: 50px;
+               margin-left: 50px;
+            font-size: 40px;
         }
     }
     
@@ -121,7 +144,17 @@ background-size: 100%;
     margin-left: 111px;
     margin-top: 105px;
     margin-left: 318px;
-    width: 400px;
+    width: 500px;
+}
+  @media screen and (max-width: 480px) {
+#descricao{
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: 10px
+}
+}
+#descricao:hover{
+          color: #bf0000;
 }
 .btnHistoria {
     margin-left: 400px;
@@ -138,6 +171,14 @@ background-size: 100%;
     display: none;
     margin-left: 55px;
 }
+  @media screen and (max-width: 480px) {
+    
+#nossosProdutos{  
+     
+float: left;
+margin-left: 14px;
+}
+  }
 .imgProdutos{
     width: 160px;
     height: 160px;
@@ -156,13 +197,25 @@ figure{
 #receitas{
     display: none;
 }
+ 
 .card{
     float: left;
 }
+  @media screen and (max-width: 480px) {
+.card{
+width: 10rem;
+}
+  }
 .card-img-top{
         width: 319px;
     height: 244px;
 }
+ @media screen and (max-width: 480px) {
+.card-img-top{
+    width: 157px;
+    height: 150px;
+}
+ }
 .card-title{
     color: red;
     font-family:knight;
@@ -180,11 +233,21 @@ figure{
      border-bottom-style:inset; 
          width: 900px;
 }
+  @media screen and (max-width: 480px) {
+#local{
+font-size: 30px;
+}
+}
 #info{
      font-family:knight;
      color: red;
      border-bottom-style:inset; 
          width: 900px;
+}
+ @media screen and (max-width: 480px) {
+#info{
+font-size: 30px;
+}
 }
 .imgContatos{
         width: 60px;
@@ -203,6 +266,11 @@ figure{
     margin-top: -25px;
     font-size: 15px;
 }
+@media screen and (max-width: 480px) {
+#faceb{
+    font-size: 10px;
+}
+}
 #faceb:hover{
     text-decoration: underline;
     cursor: pointer;
@@ -218,6 +286,11 @@ figure{
     margin-left: 52px;
     margin-top: -29px;
 }
+@media screen and (max-width: 480px) {
+#emaill{
+    font-size: 10px;
+}
+}
 #tel{
     font-size: 15px;
      width: 454px;
@@ -225,12 +298,22 @@ figure{
     margin-top: -40px;
         color: red;
 }
+ @media screen and (max-width: 480px) {
+#tel{
+    font-size: 10px;
+}
+}
 #atendimento{
      font-size: 15px;
      color: red;
         width: 454px;
             margin-left: 53px;
     margin-top: -38px;
+}
+@media screen and (max-width: 480px) {
+#atendimento{
+    font-size: 10px;
+}
 }
 #nossaHistoria{
     display: none;
@@ -287,4 +370,33 @@ color: red;
     margin-left: 1px;
     border-radius: 50%;
     margin-top: -228px;
+}
+@media screen and (max-width: 480px) {
+#imgInic{
+    width: 150px;
+    height: 150px;
+    margin-top: 16px;
+    margin-left: 79px;
+}
+}
+#obrigado{
+    color: red;
+     font-family:December;
+         width: 500px;
+    margin-top: 152px;
+    margin-left: 286px;
+}
+@media screen and (max-width: 480px) {
+#obrigado{
+    margin-left: 6px;
+    font-size: 30px;
+}
+}
+#obrigado:hover{
+        color: #bf0000;
+}
+@media screen and (max-width: 480px) {
+.carousel-inner{
+    height: 190px;
+}
 }
